@@ -1,0 +1,30 @@
+div {
+    border: 2px solid red;
+}
+#GoogleLogo {
+    height: 233px;
+    margin-top: 89px;
+}
+#GoogleLogo img {
+    padding-top: 109px;
+    display: block;
+    margin: auto;
+}
+#searchbar_div {
+    margin: auto;
+    width: 100%;
+}
+#searchbar_div input {
+    display: block;
+    margin: auto;
+    height: 34px;
+    width: 474px;
+}
+
+#header {
+    height: 30px;
+    width: 100%;
+    top: 16px;
+    z-index: 103;
+    position: fixed;
+}
