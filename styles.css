@@ -1,6 +1,4 @@
-dv {
-    border: 2px solid red;
-}
+
 * {
     font-family: arial,sans-serif;
 }
@@ -17,6 +15,9 @@ dv {
     float: right;
     height: 20px;
     margin-right: 40px;
+}
+#header img:hover{
+    opacity: 0.8;
 }
 ul {
     list-style: none;
@@ -103,4 +104,19 @@ ul li a:hover {
     border: 1px solid  rgb(184, 178, 178);
     box-shadow: -1px 4px 9px 4px rgba(0,0,0,0.3);
 } 
+
+/*---------------INFO TAB----------------*/
+#info {
+    width: 100%;
+    margin: auto 0;
+    text-align: center;
+}
+
+#info p {
+    font-size: 14px;
+    display: inline-block;
+}
+#info a {
+    display: inline-block;
+}
 /*---------------FOOTER----------------*/
