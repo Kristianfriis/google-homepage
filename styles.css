@@ -32,7 +32,6 @@ html,body{
     padding: 0;
 }
 #header-link-cont ul li {
-    display: inline-block;
     float: right;
     padding: 0px 10px 0px 10px;
 }
@@ -159,7 +158,6 @@ footer {
     padding: 0;
 }
 #footer-left ul li {
-    display: inline-block;
     float: left;
     padding: 10px 10px 0px 20px;
 }
@@ -177,8 +175,7 @@ footer {
     margin: 0;
     padding: 0;
 }
-#footer-right ul li {
-    display: inline-block;
+#footer-right ul li { 
     float: right;
     padding: 10px 20px 0px 20px;
 }
