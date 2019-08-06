@@ -1,6 +1,45 @@
 dv {
     border: 2px solid red;
 }
+* {
+    font-family: arial,sans-serif;
+}
+/*-------------HEADER---------------*/
+#header {
+    height: 30px;
+    width: 100%;
+    top: 16px;
+    z-index: 103;
+    position: fixed;
+}
+#header img {
+    opacity: 0.5;
+    float: right;
+    height: 20px;
+    margin-right: 40px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    display: inline-block;
+    float: right;
+    padding: 0px 10px 0px 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: #5F6368;
+    font-size: 14px;
+    margin-right: 10px;
+}
+ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/*----------GOOGLE LOGO--------------*/
 #GoogleLogo {
     height: 233px;
     margin-top: 89px;
@@ -10,6 +49,7 @@ dv {
     display: block;
     margin: auto;
 }
+/*---------------SEARCH BAR-------------*/
 #searchbar_div {
     margin: auto;
     width: 100%;
@@ -31,13 +71,7 @@ dv {
     box-shadow: -1px 4px 10px 8px rgba(0,0,0,0.1);
 }
 
-#header {
-    height: 30px;
-    width: 100%;
-    top: 16px;
-    z-index: 103;
-    position: fixed;
-}
+/*---------------SEARCH BAR BUTTONS-------------*/
 #button_div {
     margin: auto;
     width: 100%;
@@ -69,3 +103,4 @@ dv {
     border: 1px solid  rgb(184, 178, 178);
     box-shadow: -1px 4px 9px 4px rgba(0,0,0,0.3);
 } 
+/*---------------FOOTER----------------*/
